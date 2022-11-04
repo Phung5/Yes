@@ -1,0 +1,118 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+header {
+    display:flex;
+    height:5vh;
+    background-image:linear-gradient(to right, lime, cyan, yellow);
+    align-items:center;
+    justify-content: flex-start;
+}
+
+/* Menu Bar Icon */
+
+#bar-menu > i {
+    font-size:170%;
+    margin:20px;
+    color:#117864;
+}
+
+#UpperLeftLogo a {
+    text-decoration: none;
+    font-size:180%;
+    font-family: 'Poor Story', cursive;
+    font-weight: bold;
+    color:#117864;
+}
+
+/* Option on Side Taskbar */
+
+#Main-Nav ul li:first-child{
+    margin-left:70px;
+}
+
+#Main-Nav ul li {
+    display:inline-block;
+    margin-left:20px;
+    text-decoration:none;
+    font-size:120%;
+}
+
+#Main-Nav ul li a {
+    text-decoration:none;
+    color:#117864;
+    font-family:'Poppins', sans-serif;
+}
+
+    /* Effect */
+
+#Main-Nav ul li a:is(:hover, :focus) {
+    border-bottom:2px solid #1D8348;
+}
+
+/* Main Section */
+
+main {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+/* Side Menu */
+
+#Side-Menu {
+    width:12.5%;
+    height:95vh;
+    position:sticky;
+    text-align: center;
+    display:none;
+    background-color:#D1F2EB;
+    border-right:3px dashed #1D8348;
+}
+
+#Menu-Header {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    height:5%;
+}
+
+#Close-Menu {
+    font-size:160%;
+    margin:10px;
+    color: #1D8348;
+}
+
+#Menu-Tittle {
+    font-size: 160%;
+    font-family:'Poppins', sans-serif;
+    color:#1D8348;
+}
+/* Container and palate */
+
+.container {
+    margin-bottom:auto;
+    text-align: center;
+    width:12.5%;
+    height:95vh;
+    border-right:2px dashed #1D8348;
+}
+
+.container:last-child {
+    border-right:none;
+}
+
+.container span {
+    font-family:'Poppins', sans-serif;
+    font-weight:bolder;
+    font-size:180%;
+    height:5%;
+    display:block;
+    background-image:linear-gradient(#131086, #b621f5);
+    -webkit-background-clip: text;
+    color:transparent;
+}
